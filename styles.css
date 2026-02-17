@@ -40,7 +40,7 @@ color: white;
 
 text-decoration: none;
 
-margin: 0 10px;
+margin: 0 10px
 }
 
 nav a:hover {
@@ -48,7 +48,6 @@ nav a:hover {
 text-decoration: underline;
 
 }
-
 
 main {
 
@@ -70,9 +69,7 @@ height: auto;
 display: block;
 
 margin: 20px 0;
-
 }
-
 
 footer {
 
@@ -114,8 +111,6 @@ text-decoration: underline;
 
 }
 
-
-
 img {
 
 border: 5px solid #4CAF50;
@@ -124,7 +119,6 @@ border-radius: 10px;
 
 }
 
-
 main a[href^="mailto:"] {
 
 color: #ff5722;
@@ -132,4 +126,3 @@ color: #ff5722;
 font-weight: bold;
 
 }
-
