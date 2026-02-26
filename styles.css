@@ -1,10 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
 body {
 
 font-family: Arial, sans-serif;
 
 color: #333;
 
-background-color: #f9f9f9;
+background-color: blueviolet;
 
 margin: 0;
 
@@ -15,8 +20,6 @@ line-height: 1.6;
 }
 
 header {
-
-background-color: #4CAF50;
 
 color: white;
 
@@ -33,6 +36,21 @@ margin: 0;
 
 }
 
+.navbar-logo {
+    text-decoration: none;
+    font-size: xx-large;
+    margin-left: 20px;
+
+}
+
+.navbar-logo:hover {
+    transform: scale(1.1);
+    margin-left: 10%;
+    background-color: blueviolet;
+border: 2px solid white;
+border-radius: 100vh;
+}
+
 
 nav a {
 
@@ -40,20 +58,25 @@ color: white;
 
 text-decoration: none;
 
-margin: 0 10px
+margin-left: 100px;
+
+padding-right: 5px;
 }
 
 nav a:hover {
 
-text-decoration: underline;
+text-decoration: none;
+background-color: blueviolet;
+border: 2px solid white;
+border-radius: 100vh;
 
 }
 
 main {
 
-padding: 20px;
+padding-left: 22px;
+padding-right: 10px;
 
-max-width: 800px;
 
 margin: 0 auto;
 
@@ -70,6 +93,46 @@ display: block;
 
 margin: 20px 0;
 }
+
+.two-column {
+    padding-top: 10px;
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 2rem;
+}
+
+.image-gallery {
+    display: grid;
+    grid-column-start: 2;
+    grid-row-start: 1;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+   background-color: blueviolet;
+    border: 2px solid black;
+    border-radius: 100px;
+}
+
+.image-gallery img {
+    width: 200px;
+    height: 300px;
+    margin-left: 40px;
+}
+
+.image-gallery img:hover {
+    transform: scale(1.1);
+}
+
+.contact-btn {
+    display: grid;
+    grid-column-start: 1;
+    text-decoration: none;
+    color: white;
+    border: 2px solid black;
+    border-radius: 100vh;
+    justify-content: center;
+    background-color: black;
+}
+
 
 footer {
 
@@ -115,7 +178,7 @@ img {
 
 border: 5px solid #4CAF50;
 
-border-radius: 10px;
+border-radius: 10vh;
 
 }
 
@@ -125,4 +188,8 @@ color: #ff5722;
 
 font-weight: bold;
 
+}
+
+.intro {
+    border-bottom: 2px solid black;
 }
